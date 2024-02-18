@@ -1,0 +1,39 @@
+% https://www.evanmiller.org/joy-of-erlang.html
+
+noop(A) -> A.
+
+not(true) -> false;
+not(false) -> true.
+
+equals(A, A) -> true;
+equals(A, B) -> false.
+
+equals(A, B) -> false; % WRONG
+equals(A, A) -> true.
+
+% AND: true if both arguments are true, false otherwise
+and(true, true) -> true;
+and(false, true) -> false;
+and(true, false) -> false;
+and(false, false) -> false.
+
+% AND: true if both arguments are true, false otherwise
+and(true, true) -> true;
+and(_, _) -> false.
+
+
+% OR: true if either or both arguments are true, false otherwise
+or(false, false) -> false;
+or(_, _) -> true.
+
+% XOR: true if one argument is true and the other false; otherwise, false
+xor(A, A) -> false;
+xor(_, _) -> true.
+
+% NAND: false if both arguments are true, true otherwise
+nand(true, true) -> false;
+nand(_, _) -> true.
+
+% NOR: true if both arguments are false, false otherwise
+nor(false, false) -> true;
+nor(_, _) -> false.

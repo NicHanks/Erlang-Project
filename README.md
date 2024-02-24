@@ -5,7 +5,7 @@ This also helps with finding the area, perimeter, and volume of certain shapes!
 
 
 Short Tutorial: [Software Demo Video](https://youtu.be/qz_OS0duqts)
-Longer Tutorial: [Software Demo Video]( ... )
+Longer Tutorial: [Software Demo Video2](https://youtu.be/C-09CsKdZ-E)
 
 # Development Environment
 

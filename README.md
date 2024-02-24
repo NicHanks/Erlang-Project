@@ -1,29 +1,22 @@
 # Overview
 
-I have written a little math library to help people with their algebraic expressions! 
+I have written a little math library to help people with their algebraic expressions!
+This also helps with finding the area, perimeter, and volume of certain shapes! 
 
-{Provide a description for the software that you wrote.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
 
 Short Tutorial: [Software Demo Video](https://youtu.be/qz_OS0duqts)
 Longer Tutorial: [Software Demo Video]( ... )
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+It depends on what operating software you have, but on mac it's linux with erlang installed and erlang, + erlang ls extensions in vs code. 
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Erlang Documentation](https://www.erlang.org/docs)
+* [Erlang - Wiki](https://en.wikipedia.org/wiki/Erlang_(programming_language))
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Item 1, want to make it so it will save the variables into a database.
+* Item 2, add functions to find the perimiter of certain shapes. 

@@ -20,3 +20,4 @@ It depends on what operating software you have, but on mac it's linux with erlan
 
 * Item 1, want to make it so it will save the variables into a database.
 * Item 2, add functions to find the perimiter of certain shapes. 
+* Item 3, make it loop without having to retype, math_operations:start().

@@ -10,8 +10,8 @@ start() ->
     io:format("[4] Calculate the volume of a shape.~n"),
     {ok, [Choice]} = io:fread(" ", "~d"),
     handle_choice(Choice),
-    io:format("Hope you have a great day!~n"),
-    io:format(":)~n").
+    io:format("Have a great day!~n"),
+    io:format("(Type: math_operations:start(). to start again)~n").
 
 handle_choice(1) -> arithmetic_operations();
 handle_choice(2) -> calculate_circle();
